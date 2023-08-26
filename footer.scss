@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    // background-color: black;
+    .bottom-section {
+        .sec-one {
+            border: 1px solid rgb(212, 196, 196);
+            margin-bottom: 5rem;
+            padding-bottom: 5rem;
+            width: 80rem;
+            margin-left: 8rem;
+            border-top: transparent;
+            border-left: transparent;
+            border-right: transparent;
+
+            .footer-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .footer-big-text {
+                    font-weight: 800;
+                    font-size: 2.5rem;
+                    color: rgb(82, 76, 76);
+                    margin-bottom: 1.5rem;
+                }
+
+                .footer-small-text {
+                    color: rgb(82, 76, 76);
+                    margin-bottom: 2rem;
+                }
+            }
+
+            .footer-icon {
+                display: flex;
+                justify-content: space-between;
+                margin: 0 13rem;
+
+                .footer-icon-one {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .footer-email-icon {
+                        width: 3rem;
+                        height: 3rem;
+                        // margin-top: 4rem;
+                        // flex-direction: column;
+
+                    }
+
+                    .footer-icon-text-one {
+                        display: flex;
+                        flex-direction: column;
+                        // border: 1px solid red;
+                        display: block;
+                    }
+                }
+
+                .footer-icon-two {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                }
+
+                .footer-icon-three {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+        .sec-two {
+            display: flex;
+            justify-content: space-around;
+            margin: 0 10rem;
+            width: 80rem;
+            border: 1px solid rgb(212, 196, 196);
+            margin-left: 8rem;
+            border-top: transparent;
+            border-left: transparent;
+            border-right: transparent;
+            margin-bottom: 5rem;
+            padding-bottom: 5rem;
+
+            .footer-sec-two-one {
+                // display: flex;
+                // flex-direction: column;
+                // justify-content: space-between;
+                // b{padding-bottom: 2rem;
+                // border: 1px solid red;}
+                //   margin-bottom: 3rem;
+                p {
+                    padding-top: 1rem;
+                    color:rgb(88, 81, 81) ;
+                }
+            }
+            .footer-sec-two-two{
+                p {
+                    padding-top: 1rem;
+                    color:rgb(88, 81, 81) ;
+                }
+            }
+            .footer-sec-two-three{
+                p {
+                    padding-top: 1rem;
+                    color:rgb(88, 81, 81) ;
+                }
+            }
+            .footer-sec-two-four{
+                p {
+                    padding-top: 1rem;
+                    color:rgb(88, 81, 81) ;
+                }
+            }
+            .footer-sec-two-five{
+                p {
+                    padding-top: 1rem;
+                    color:rgb(88, 81, 81) ;
+                }
+            }
+        }
+        .sec-three{
+         .sec-three-top{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            p{
+                color:rgb(151, 139, 139) ;
+                
+            }
+            .sec-three-top-text{
+                padding-top: 2rem;
+            }
+         }
+         .sec-three-bottom{
+            display: flex;
+            justify-content: center;
+            background-color:rgb(234, 239, 243);
+            height: 4rem;
+            // flex-direction: column;
+            // justify-content: center;
+            align-items: center;
+            p{
+                color:rgb(151, 139, 139) ;
+                padding-right: 2.5rem;
+            }
+         }
+        }
+
+    }
+
+
+
+}

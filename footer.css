@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body .bottom-section .sec-one {
+  border: 1px solid rgb(212, 196, 196);
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+  width: 80rem;
+  margin-left: 8rem;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+}
+body .bottom-section .sec-one .footer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .bottom-section .sec-one .footer-text .footer-big-text {
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: rgb(82, 76, 76);
+  margin-bottom: 1.5rem;
+}
+body .bottom-section .sec-one .footer-text .footer-small-text {
+  color: rgb(82, 76, 76);
+  margin-bottom: 2rem;
+}
+body .bottom-section .sec-one .footer-icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 13rem;
+}
+body .bottom-section .sec-one .footer-icon .footer-icon-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .bottom-section .sec-one .footer-icon .footer-icon-one .footer-email-icon {
+  width: 3rem;
+  height: 3rem;
+}
+body .bottom-section .sec-one .footer-icon .footer-icon-one .footer-icon-text-one {
+  display: flex;
+  flex-direction: column;
+  display: block;
+}
+body .bottom-section .sec-one .footer-icon .footer-icon-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .bottom-section .sec-one .footer-icon .footer-icon-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .bottom-section .sec-two {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10rem;
+  width: 80rem;
+  border: 1px solid rgb(212, 196, 196);
+  margin-left: 8rem;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+}
+body .bottom-section .sec-two .footer-sec-two-one p {
+  padding-top: 1rem;
+  color: rgb(88, 81, 81);
+}
+body .bottom-section .sec-two .footer-sec-two-two p {
+  padding-top: 1rem;
+  color: rgb(88, 81, 81);
+}
+body .bottom-section .sec-two .footer-sec-two-three p {
+  padding-top: 1rem;
+  color: rgb(88, 81, 81);
+}
+body .bottom-section .sec-two .footer-sec-two-four p {
+  padding-top: 1rem;
+  color: rgb(88, 81, 81);
+}
+body .bottom-section .sec-two .footer-sec-two-five p {
+  padding-top: 1rem;
+  color: rgb(88, 81, 81);
+}
+body .bottom-section .sec-three .sec-three-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+body .bottom-section .sec-three .sec-three-top p {
+  color: rgb(151, 139, 139);
+}
+body .bottom-section .sec-three .sec-three-top .sec-three-top-text {
+  padding-top: 2rem;
+}
+body .bottom-section .sec-three .sec-three-bottom {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(234, 239, 243);
+  height: 4rem;
+  align-items: center;
+}
+body .bottom-section .sec-three .sec-three-bottom p {
+  color: rgb(151, 139, 139);
+  padding-right: 2.5rem;
+}/*# sourceMappingURL=footer.css.map */
