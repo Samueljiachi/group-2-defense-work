@@ -14,8 +14,12 @@ body {
         align-items: center;
         margin-top: 1rem;
         margin-right: 4rem; 
-        border: 1px solid black;
-
+        border: 1px solid rgb(221, 226, 228);
+        width: 100%;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent;
+        
         .logo-name {
             padding-left: 5rem;
             padding-right: 2rem;
@@ -31,7 +35,7 @@ body {
         .search-box {
             display: flex;
             // justify-content: ;
-            border: 1px solid red;
+            border: 1px solid rgb(221, 226, 228);
             width: 20rem;
             background-color: white;
             margin-right: 2rem;
@@ -76,11 +80,11 @@ body {
             .login-div {
                 margin-left: 1rem;
                 border: 1px solid rgb(221, 226, 228);
-                border-radius: 1rem;
+                border-radius: 1.3rem;
                 overflow: hidden;
                 width: 4.5rem;
-                height: 2rem;
-                padding-left: 0.8rem;
+                height: 2.3rem;
+                padding-left: 0.4rem;
                 padding-top: 0.15rem;
                 .hamburger{
                     // border: 1px solid skyblue;

@@ -10,6 +10,11 @@ body .start-section {
   align-items: center;
   margin-top: 1rem;
   margin-right: 4rem;
+  border: 1px solid rgb(221, 226, 228);
+  width: 100%;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
 }
 body .start-section .logo-name {
   padding-left: 5rem;
@@ -24,7 +29,7 @@ body .start-section .logo-name {
 }
 body .start-section .search-box {
   display: flex;
-  border: 1px solid red;
+  border: 1px solid rgb(221, 226, 228);
   width: 20rem;
   background-color: white;
   margin-right: 2rem;
@@ -59,15 +64,15 @@ body .start-section .login {
 body .start-section .login .login-div {
   margin-left: 1rem;
   border: 1px solid rgb(221, 226, 228);
-  border-radius: 1rem;
+  border-radius: 1.3rem;
   overflow: hidden;
   width: 4.5rem;
-  height: 2rem;
-  padding-left: 0.8rem;
+  height: 2.3rem;
+  padding-left: 0.4rem;
   padding-top: 0.15rem;
 }
 body .start-section .login .login-div .hamburger {
-  border: 1px solid skyblue;
+  border: transparent;
 }
 body .bottom-section .sec-one {
   border: 1px solid rgb(212, 196, 196);
